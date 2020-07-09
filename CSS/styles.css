@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'coves';
+    src: url(../fonts/coves-light.otf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'coves';
+    src: url(../fonts/coves-bold.otf);
+    font-weight: 600;
+}
+/* GENERAL CSS */
+html {
+    font-family: 'coves';
+}
+
+.main {
+    width: 90%;
+    margin: 20px auto;
+}
+
+h2 {
+    font-family: 'coves';
+    font-weight: 600;
+    color: #E76D83;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+}
+/* END OF GENERAL */
+/* NAV BAR MORIAYO */
+
+.nav-bar {
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #485696;
+    height: 50px;
+    align-items: center;
+    font-family: 'coves';
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 5px solid #E76D83;
+}
+
+.nav-left {
+    height: 100%;
+}
+
+#logo {
+    height: 90%;
+}
+
+.menu-icon>img { 
+    display: none;
+    width: 35px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+.nav-right>ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-link-wrapper>li {
+    padding: 0px 20px;
+    transition-duration: 1s;
+    display: inline-block;
+}
+
+.nav-link-wrapper {
+    display: inline-block;
+    padding: 2px;
+    margin: 0px 20px;
+    border-bottom: transparent 2px solid;
+    transition: border 1s;
+}
+
+.nav-link-wrapper > a { 
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 1s, border 1s;
+}
+.nav-link-wrapper:hover {
+    border-bottom: #08a4bd solid 2px;
+}
+.nav-link-wrapper > a:hover{
+    color: #08a4bd;
+    transition-duration: 1s;
+}
+
+#phoneNav {
+    display: none;
+    width: 100%;
+    text-align: center;
+    background-color: #485696;
+    font-family: 'coves';
+    color: #ffffff;
+}
+
+#phoneNav > ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+#phoneNav > ul > li {
+    padding: 5px;
+    display: inline-block;
+    width: 100%;
+    height: 25px;
+    background-color: #485696;
+    transition: background-color 0.5s;
+}
+
+#phoneNav > ul > li:hover {
+    background-color: #ffffff;
+    color: #485696;
+}
+
+#phoneNav > ul > li > a {
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    transition: color 0.5s;
+}
+
+#phoneNav > ul > li > a:hover{
+    color: #485696;
+}
+
+
+
+@media (max-width: 560px){
+    .nav-right{
+        display: none;
+    }
+
+    .menu-icon > img{
+        display: block;
+        transition: 1s;
+    }
+
+    .menu-icon > img:hover{
+        transform: scale(1.07);
+    }
+}
+/* END OF NAV BAR */
+/* MAIN INTRO PAGE BEGINS- NICOLA */
+
+.intro-page-total { /* including the pic and all text */
+    display:flex;
+    flex-direction:row;
+    align-content: center;
+    justify-content: center;
+}
+  
+.intro-page-text {/* includes text and buttons */
+    display:flex;
+    flex-direction: column; /* trying to have the h1, h3, and box-buttons one on top of another */
+    margin-top: 100px;
+}
+  
+.intro_pic {
+    margin: 100px 50px;
+    width: 500px;
+    display:flex;
+}
+  
+#slogan {
+    margin-top: 18px;
+    margin-bottom: 50px;
+    font-family: 'coves';
+    font-weight: 600;
+    color: #485696;
+    font-size: 40px;
+}
+
+#intro-explanation {
+    margin-bottom: 50px; /* WHY DID THIS NOT WORK WHEN I TRIED TO COMBINE WITH H1? */
+    font-family: 'coves';
+    font-weight: 100;
+    color: #ffffff;
+    font-size: 25px;
+}
+  
+.intro-button {
+    background-color: #E76D83; 
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: 'coves';
+    color: #ffffff;
+    font-size: 25px;
+    margin-right: 20px;
+    /* maybe?
+     border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-bottom: 2px solid #485696;
+    border-right: 2px solid #485696; */
+}
+  
+  .intro-button-all {
+    display:flex;
+    margin-top: 20px;
+  }
+/* INTRO PAGE ENDS */
+/* NOVEL INFO STARTS MISHAAL */
+
+#novel-info-title {
+    text-align: center;
+}
+
+.novel-info {
+    display: flex;
+}
+
+.novel-info-box {
+    line-height: 26px;
+    font-size: 18px;
+    text-align: left;
+    width: 300px;
+    margin: 10px;
+    display: inline-block;
+    padding: 60px;
+
+}
+
+.novel-info-box>h4  {
+    font-size: 30px;
+    color: #485696;
+    padding: 10px;
+}
+
+.novel-info-image {
+    width: 300px;
+ } 
+/* NOVEL INFO ENDS MISHAAL */
+
+/* Georgina Sign Up Page */
+.sign-up-form {
+    width: 350px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3); 
+    background: #fff;
+    padding: 40px;
+    margin: 8% auto 0;
+    text-align: center;
+    color: #08A4BD;
+}
+
+.input-box {
+    font-family: 'coves';
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    border: 1px solid #999;
+    outline: none;
+}
+.sign-up-form > form > button {
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'coves';
+    font-weight: 600;
+    font-size: 15px;
+    margin: 10px auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.sign-btn {
+    background-color: #08A4BD;
+}
+
+.google-btn {
+    background-color: #485696;
+}
+
+
+hr {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.or {
+    background: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+
+#user_logo {
+    width: 70px;
+    margin-top: -70px;
+}
+
+
+/* Parralax 1 */
+.parralax{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    /* min-width: 1000px; */
+    height: 70vh;
+    position: absolute;
+    background-size: cover;
+}
+
+
+#parralax1{
+    background-image: url(../images/parallax/pexels-photo-3938023.jpeg);
+
+}
+
+#parralax2{
+    background-image:url(../images/parallax/thisisengineering-raeng-04y9odvfymw-unsplash.jpg);
+}
+
+
+/* Roles */
+#main-colour{
+    background-color: #485696;
+    margin: 0 ;
+    width: 100%;
+    margin-top: 72vh; 
+    height: 100vh;
+    padding-top:20px ;
+}
+#roles{/* Need margin to stop overlap of absolute image */
+    padding: 20px;
+}
+
+#roles-title{
+    font-size: 5vw;
+    padding: 15px;
+    background-color: #485696;
+    display: inline-block;
+    
+}
+
+
+/* Quiz */
+#quiz{
+    margin-top: 80vh;
+    padding-bottom: 20vh;
+}
+
+#quiz-title{
+    text-align: end;
+}
+
+#quiz-description{
+    padding: 20px;
+    text-align: center;
+}
+
+.quiz-wrapper{
+    text-align: center;
+}

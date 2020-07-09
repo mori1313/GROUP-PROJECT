@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <title>CFG Group Project</title>
+</head>
+<body>
+<!--NAV BAR BEGINS- MORAIYO-->  
+    <div class="nav-bar">
+        <div class="nav-left"><img id="logo" src="./images/logo/logonew.png" alt="logo"></div>
+        <div class="nav-right">
+            <ul>
+                <li><div class="nav-link-wrapper"><a href="index.html">Home</a></div></li>
+                <li><div class="nav-link-wrapper"><a href="sign-up.html">Sign Up</a></div></li>
+                <li><div class="nav-link-wrapper"><a href="about.html">About Us</a></div></li> 
+            </ul>
+        </div>
+    </div>
+    <div onclick="showMenu()" class="menu-icon"><img src="./images/icons/menu.png" alt="menu" srcset=""></div>
+    <div id="phoneNav" style="display: none;">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="sign-up.html">Sign Up</a></li>
+        </ul>
+    </div>
+<!--NAV BAR ENDS-->  
+    <div class="main">
+        <!--MAIN INTRO PAGE BEGINS- NICOLA-->  
+        <div class="intro-page-total">
+            <img class="intro_pic" src = "images/intropage.jpg" alt="a female engineer in the workplace">
+
+            <div class= "intro-page-text">
+
+                <h1>People can't be what they can't see.<span id="slogan"></span></h1>
+                <h3>At Girl2Stem, we aim to demystify what it means <br> to work in the engineering industry. <span id="intro-explanation"></span></h3>
+
+                <div class="intro-button-all">       
+                    <button type="button" button class= "intro-button">Roles</button> 
+                    <button type="button" button class= "intro-button">Resources</button> 
+                    <button type="button" button class= "intro-button">Quiz</button>
+                </div>
+            </div>
+        </div>
+        <!--MAIN INTRO PAGE ENDS--> 
+        <!--NOVEL INFO STARTS MISHAAL--> 
+        <h2 id="novel-info-title">Girl2Stem's Mission</h2>
+        <div class="novel-info">
+            <div class="novel-info-box">
+                <h4>Engineering has an image problem</h4>
+                <img class="novel-info-image" src="https://oliver-dev.s3.amazonaws.com/thumbs/500x500/049c6445-1d83-4f94-a639-3335ab1cfed6.png" alt="35/100 women in STEM">
+                <p>According to EngineerUK, only 12% of engineers are women, and only 8% come from black, Asian and minority ethnic backgrounds. There is a typical image of what an engineering should look like, and it means that a lot of people, schoolchildren especially, are not considering STEM or engineering as a career option for them.</p>
+            </div>
+            <div class="novel-info-box">
+                <h4>Diversity benefits industry</h4>
+                <img class="novel-info-image" src="https://www.theengineer.co.uk/content/uploads/2018/10/BossTraining3.jpg" alt="engineers at work">
+                <p>As well as being a worthy goal in and of itself, inclusion brings tangible benefits for companies. In a recent study of 600 companies, inclusive teams made decisions twice as fast and required half the number of meetings. Furthermore, diverse team decisions delivered 60% better results.</p>
+            </div>
+
+            <div class="novel-info-box">
+                <h4>How we are promoting inclusion</h4>
+                <img class="novel-info-image" src="https://zzjyl3lhxs3eyvm92cs1kx1a-wpengine.netdna-ssl.com/wp-content/uploads/2020/06/1_demcGr62Xqhxn8TrVJyvww-1000x576.png" alt="Inclusion">
+                <p>In addition to more inclusive hiring practices, we believe that it is vital that young people aspire to roles in engineering. Therefore we deliver engineering workshops in schools to demonstrate the wide range of transferable skills needed in the industry, as well as organising talks with leading female engineers in the field.</p>
+            </div>
+        </div>
+    </div>
+    <!--NOVEL INFO ENDS MISHAAL--> 
+    <!--PARRALAX 1 MORIAYO-->
+    <div class="parralax-wrapper">
+        <div class="parralax" id="parralax1">
+        </div>
+    </div>
+    <!--PARRALAX 1 ENDS MORIAYO-->
+    <!--ROLES-->
+    <div id="main-colour">
+        <div id="roles">
+            <h2 id="roles-title">Roles</h2><br>
+        </div>
+    </div>
+    <!--ROLES ENDS-->
+    <!--PARRALAX 2-->
+    <div class="parralax" id="parralax2">
+    </div>
+    <!--QUIZ-->
+    <div class="main" id="quiz">
+        <h2 id="quiz-title">Quiz</h2>
+        <h3 id="quiz-description">Want to get more of an idea of what kind of stem job may suit you? Take our quiz!</h3>
+        <div class="quiz-wrapper">
+            <div id="interact-5eeb7d83b3d46200142fae6c"></div><script type="text/javascript">var app_5eeb7d83b3d46200142fae6c;(function(d, t){var s=d.createElement(t),options={"appId":"5eeb7d83b3d46200142fae6c","width":"800","height":"800","async":true,"host":"quiz.tryinteract.com","footer":"show"};s.src='https://i.tryinteract.com/embed/app.js';s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs)if(rs!='complete')if(rs!='loaded')return;try{app_5eeb7d83b3d46200142fae6c=new InteractApp();app_5eeb7d83b3d46200142fae6c.initialize(options);app_5eeb7d83b3d46200142fae6c.display();}catch(e){}};var scr=d.getElementsByTagName(t)[0],par=scr.parentNode;par.insertBefore(s,scr);})(document,'script');</script>
+        </div>
+    </div>
+    <!--QUIZ END-->
+<script src="./JavaScript/app.js"></script><!-- script must be here to run--> 
+ </body>
+</html>
