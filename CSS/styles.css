@@ -382,3 +382,82 @@ hr {
 .quiz-wrapper{
     text-align: center;
 }
+/* Quiz ends */
+/* Footer begins mishaal */
+
+p{
+    color: rgba(255, 255, 255, 0.795);
+    line-height: 25px;
+    background-color: #485696;
+    text-align: center;
+    margin-bottom: 0;
+}
+h2, h3{
+    color: rgba(255, 255, 255, 0.897);
+    font-size: 18px;
+}
+.footer-top{
+    background: #485696;
+    padding: 80px 0;
+}
+.segment-one  {
+    padding-top: 30px;
+}
+.segment-two h2 {
+    color: #fff;
+    font-family: 'coves';
+    text-transform: uppercase;
+}
+.segment-two h2:before{
+    content: ' | ';
+    color: #e76d83;
+    padding-right: 10px;
+}
+
+.footer-text-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.twitter, .facebook, .instagram, .linkedin{
+    background: #E76D83;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 20px;
+     padding: 10px;
+}
+
+.segment-three h3{
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+.segment-three h3:before{
+    content: ' | ';
+    color: #e76d83;
+    padding-right: 10px;
+}
+.segment-three form input[type=submit] {
+    background: #e76d83;
+    border: none;
+    padding: 3px 15px;
+    margin-left: -5px;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+@media only screen and (min-width: 786px) and (max-width: 991px) {
+    .md-mb-30 {
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .sm-mb-30 {
+        margin-bottom: 30px;
+    }
+    .footer-top{
+        padding: 50px 0;
+    }
+}
