@@ -161,62 +161,8 @@ a {
 /* END OF NAV BAR */
 /* MAIN INTRO PAGE BEGINS- NICOLA */
 
-.intro-page-total { /* including the pic and all text */
-    display:flex;
-    flex-direction:row;
-    align-content: center;
-    justify-content: center;
-}
-  
-.intro-page-text {/* includes text and buttons */
-    display:flex;
-    flex-direction: column; /* trying to have the h1, h3, and box-buttons one on top of another */
-    margin-top: 100px;
-}
-  
-.intro_pic {
-    margin: 100px 50px;
-    width: 500px;
-    display:flex;
-}
-  
-#slogan {
-    margin-top: 18px;
-    margin-bottom: 50px;
-    font-family: 'coves';
-    font-weight: 600;
-    color: #485696;
-    font-size: 40px;
-}
 
-#intro-explanation {
-    margin-bottom: 50px; /* WHY DID THIS NOT WORK WHEN I TRIED TO COMBINE WITH H1? */
-    font-family: 'coves';
-    font-weight: 100;
-    color: #ffffff;
-    font-size: 25px;
-}
-  
-.intro-button {
-    background-color: #E76D83; 
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 10px;
-    font-family: 'coves';
-    color: #ffffff;
-    font-size: 25px;
-    margin-right: 20px;
-    /* maybe?
-     border-top: 2px solid transparent;
-    border-left: 2px solid transparent;
-    border-bottom: 2px solid #485696;
-    border-right: 2px solid #485696; */
-}
-  
-  .intro-button-all {
-    display:flex;
-    margin-top: 20px;
+
   }
 /* INTRO PAGE ENDS */
 /* NOVEL INFO STARTS MISHAAL */
