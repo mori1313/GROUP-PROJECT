@@ -350,13 +350,34 @@ hr {
 }
 
 #roles-title{
+    color: #E76D83;
     font-size: 5vw;
-    padding: 15px;
+    padding: 3%;
+    padding-left: 13%;
     background-color: #485696;
-    display: inline-block;
+    display: flex;
     
 }
-
+#roles-title:before{
+    content: "";
+    display: block;
+    width: 10%;
+    height: 10px;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 298%;
+}
+#roles-title:after{
+    content: "";
+    display: block;
+    width: 70%;
+    height: 10px;
+    background: #fff;
+    position: absolute;
+    right: 0;
+    top: 298%;
+}
 
 /* Quiz */
 #quiz{
@@ -366,8 +387,33 @@ hr {
 
 #quiz-title{
     text-align: end;
+    color: #E76D83;
+    font-size: 5vw;
+    padding: 3%;
+    padding-left: 70%;
+    background-color: #fff;
+    display: flex;
 }
-
+#quiz-title:before{
+    content: "";
+    display: block;
+    width: 63%;
+    height: 10px;
+    background: #485696;
+    position: absolute;
+    left: 0;
+    top: 469%;
+}
+#quiz-title:after{
+    content: "";
+    display: block;
+    width: 18%;
+    height: 10px;
+    background: #485696;
+    position: absolute;
+    right: 0;
+    top: 469%;
+}
 #quiz-description{
     padding: 20px;
     text-align: center;
