@@ -382,6 +382,9 @@ hr {
 p{
     color: rgba(255, 255, 255, 0.795);
     line-height: 25px;
+    background-color: #485696;
+    text-align: center;
+    margin-bottom: 0;
 }
 h2, h3{
     color: rgba(255, 255, 255, 0.897);
@@ -396,7 +399,7 @@ h2, h3{
 }
 .segment-two h2 {
     color: #fff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'coves';
     text-transform: uppercase;
 }
 .segment-two h2:before{
@@ -404,42 +407,20 @@ h2, h3{
     color: #e76d83;
     padding-right: 10px;
 }
-.facebook{
-    background: #494848;
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    border-radius: 50%;
-    font-size: 20px;
-    padding: 10px;
+
+.footer-text-wrapper{
+    display: flex;
+    justify-content: center;
 }
 
-.twitter{
-    background: #494848;
+.twitter, .facebook, .instagram, .linkedin{
+    background: #E76D83;
     width: 40px;
     height: 40px;
     display: inline-block;
     border-radius: 50%;
     font-size: 20px;
      padding: 10px;
-}
-.instagram{
-    background: #494849;
-    width: 45px;
-    height: 43px;
-    display: inline-block;
-    border-radius: 50%;
-    font-size: 20px;
-    padding: 10px;
-}
-.linkedin{
-    background: #494849;
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    border-radius: 50%;
-    font-size: 20px;
-    padding: 10px;
 }
 
 .segment-three h3{
