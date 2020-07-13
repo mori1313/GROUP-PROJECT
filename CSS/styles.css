@@ -507,6 +507,11 @@ h2, h3{
     text-transform: uppercase;
 
 }
+.footer-bottom-text {
+    background: #485696;
+    text-align: center;
+    line-height: 75px;
+}
 @media only screen and (min-width: 786px) and (max-width: 991px) {
     .md-mb-30 {
         margin-bottom: 30px;
