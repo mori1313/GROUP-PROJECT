@@ -11,18 +11,18 @@ function showMenu() {
 /* Parallax */
 
 const parralax1 = document.getElementById("parralax1");
-
-window.addEventListener('scroll', function(){
-
-    let scrollPosition = window.pageYOffset
-    parralax1.style.backgroundPositionY = (scrollPosition + 100) * 0.5 + 'px'
-})
-
 const parralax2 = document.getElementById("parralax2");
 
 window.addEventListener('scroll', function(){
 
     let scrollPosition = window.pageYOffset
-    console.log(scrollPosition)
-    parralax2.style.backgroundPositionY = ( scrollPosition - 1250 ) * 0.5 + 'px'
+    let width = window.innerWidth
+    
+    if ( width > 1170 ) {
+        parralax1.style.backgroundPositionY = ( scrollPosition + 100 ) * 0.5 + 'px'
+        parralax2.style.backgroundPositionY = ( scrollPosition - 1250 ) * 0.5 + 'px'
+    } else {
+        parralax1.style.backgroundAttachment = "fixed"
+        parralax2.style.backgroundAttachment = "fixed"
+    }
 })

@@ -1,35 +1,35 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/styles.css">
-    <script src="./JavaScript/app.js"></script>
     <title>CFG Group Project</title>
 </head>
 <body>
-    <!--NAV BAR BEGINS- MORAIYO-->  
-    <div class="nav-bar">
-        <div class="nav-left"><img id="logo" src="./images/logo/logonew.png" alt="logo"></div>
-        <div class="nav-right">
-            <ul>
-                <li><div class="nav-link-wrapper"><a href="index.html">Home</a></div></li>
-                <li><div class="nav-link-wrapper"><a href="sign-up.html">Sign Up</a></div></li>
-                <li><div class="nav-link-wrapper"><a href="about.html">About Us</a></div></li> 
-            </ul>
-        </div>
-    </div>
-    <div onclick="showMenu()" class="menu-icon"><img src="./images/icons/menu.png" alt="menu" srcset=""></div>
-    <div id="phoneNav" style="display: none;">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="sign-up.html">Sign Up</a></li>
+<!--NAV BAR BEGINS- MORAIYO-->  
+<div class="navigation-bar">
+    <div class="navigation-left"><img id="logo" src="./images/logo/logonew.png" alt="logo"></div>
+    <div class="navigation-right d-none d-md-flex">
+        <ul class="mt-3">
+            <li><div class="nav-link-wrapper"><a href="index.html">Home</a></div></li>
+            <li><div class="nav-link-wrapper"><a href="sign-up.html">Sign Up</a></div></li>
+            <li><div class="nav-link-wrapper"><a href="about.html">About Us</a></div></li> 
         </ul>
     </div>
+</div>
+<div onclick="showMenu()" class="menu-icon"><img class="d-block d-md-none" src="./images/icons/menu.png" alt="menu" srcset=""></div>
+<div class="d-md-none" id="phoneNav" style="display: none;">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="sign-up.html">Sign Up</a></li>
+    </ul>
+</div>
 <!--NAV BAR ENDS-->  
     <div class="main">
         <h2>About</h2>
     </div>
+    <script src="./JavaScript/app.js"></script><!-- script must be here to run--> 
 </body>
 </html>
