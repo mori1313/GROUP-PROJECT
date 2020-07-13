@@ -170,63 +170,21 @@ a {
 /* END OF NAV BAR */
 /* MAIN INTRO PAGE BEGINS- NICOLA */
 
-.intro-page-total { /* including the pic and all text */
-    display:flex;
-    flex-direction:row;
-    align-content: center;
-    justify-content: center;
-}
-  
-.intro-page-text {/* includes text and buttons */
-    display:flex;
-    flex-direction: column; /* trying to have the h1, h3, and box-buttons one on top of another */
-    margin-top: 100px;
-}
-  
-.intro_pic {
-    margin: 100px 50px;
-    width: 500px;
-    display:flex;
-}
-  
-#slogan {
-    margin-top: 18px;
-    margin-bottom: 50px;
-    font-family: 'coves';
-    font-weight: 600;
-    color: #485696;
-    font-size: 40px;
-}
-
-#intro-explanation {
-    margin-bottom: 50px; /* WHY DID THIS NOT WORK WHEN I TRIED TO COMBINE WITH H1? */
-    font-family: 'coves';
-    font-weight: 100;
-    color: #ffffff;
-    font-size: 25px;
-}
-  
 .intro-button {
     background-color: #E76D83; 
-    padding: 15px 32px;
+    padding: 15px;
     text-align: center;
     text-decoration: none;
     border-radius: 10px;
     font-family: 'coves';
     color: #ffffff;
     font-size: 25px;
-    margin-right: 20px;
-    /* maybe?
-     border-top: 2px solid transparent;
+    border-top: 2px solid transparent;
     border-left: 2px solid transparent;
     border-bottom: 2px solid #485696;
-    border-right: 2px solid #485696; */
-}
-  
-  .intro-button-all {
-    display:flex;
-    margin-top: 20px;
+    border-right: 2px solid #485696;
   }
+
 /* INTRO PAGE ENDS */
 /* NOVEL INFO STARTS MISHAAL */
 
@@ -385,14 +343,14 @@ hr {
 /* Quiz ends */
 /* Footer begins mishaal */
 
-p{
+.follow-text{
     color: rgba(255, 255, 255, 0.795);
     line-height: 25px;
     background-color: #485696;
     text-align: center;
     margin-bottom: 0;
 }
-h2, h3{
+.follow, .newsletter{
     color: rgba(255, 255, 255, 0.897);
     font-size: 18px;
 }
@@ -403,12 +361,12 @@ h2, h3{
 .segment-one  {
     padding-top: 30px;
 }
-.segment-two h2 {
+.segment-two>h2 {
     color: #fff;
     font-family: 'coves';
     text-transform: uppercase;
 }
-.segment-two h2:before{
+.segment-two>h2:before{
     content: ' | ';
     color: #e76d83;
     padding-right: 10px;
