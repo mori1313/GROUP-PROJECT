@@ -161,29 +161,9 @@ a {
 /* END OF NAV BAR */
 /* MAIN INTRO PAGE BEGINS- NICOLA */
 
-.container {
-    padding:30px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-  }
 
-  .intro_pic{
-      width:400px;
-      height:auto;
-  }
 
-.intro-page-text {
-    padding: 20px;
-    padding left: 40px;
-    color:#485696;
-  }
- 
-.inside-intro{
-    margin-left:30px;
-    padding:20px;
-}
-
-  .intro-button {
+.intro-button {
     background-color: #E76D83; 
     padding: 15px;
     text-align: center;
@@ -197,6 +177,8 @@ a {
     border-bottom: 2px solid #485696;
     border-right: 2px solid #485696;
   }
+
+
 
 /* INTRO PAGE ENDS */
 /* NOVEL INFO STARTS MISHAAL */
