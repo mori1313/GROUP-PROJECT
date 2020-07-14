@@ -20,7 +20,7 @@ window.addEventListener('scroll', function(){
     
     if ( width > 1170 ) {
         parralax1.style.backgroundPositionY = ( scrollPosition + 100 ) * 0.5 + 'px'
-        parralax2.style.backgroundPositionY = ( scrollPosition - 1250 ) * 0.5 + 'px'
+        parralax2.style.backgroundPositionY = ( scrollPosition  ) * 0.5 + 'px'
     } else {
         parralax1.style.backgroundAttachment = "fixed"
         parralax2.style.backgroundAttachment = "fixed"
