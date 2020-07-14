@@ -342,21 +342,21 @@ hr {
     content: "";
     display: block;
     width: 10%;
-    height: 10px;
+    height: 12px;
     background: #fff;
     position: absolute;
     left: 0;
-    top: 298%;
+    top: 235%;
 }
 #roles-title:after{
     content: "";
     display: block;
     width: 70%;
-    height: 10px;
-    background: #fff;
+    height: 12px;
+    background:#fff;
     position: absolute;
     right: 0;
-    top: 298%;
+    top: 235%;
 }
 
 .grid /* Georgina Grid New*/
@@ -468,21 +468,21 @@ hr {
     content: "";
     display: block;
     width: 63%;
-    height: 10px;
+    height: 12px;
     background: #485696;
     position: absolute;
     left: 0;
-    top: 469%;
+    top: 582%;
 }
 #quiz-title:after{
     content: "";
     display: block;
     width: 18%;
-    height: 10px;
+    height: 12px;
     background: #485696;
     position: absolute;
     right: 0;
-    top: 469%;
+    top: 582%;
 }
 #quiz-description{
     padding: 20px;
