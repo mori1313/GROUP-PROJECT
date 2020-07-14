@@ -232,16 +232,16 @@ a {
     width: 250px;
 }
 /* NOVEL INFO ENDS MISHAAL */
-
 /* Georgina Sign Up Page */
 .sign-up-form {
+    position: relative;
     width: 350px;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3); 
     background: #fff;
     padding: 40px;
     margin: 8% auto 0;
     text-align: center;
-    color: #08A4BD;
+    color: #485696;
 }
 
 .input-box {
@@ -267,11 +267,11 @@ a {
 }
 
 .sign-btn {
-    background-color: #08A4BD;
+    background-color: #E76D83;
 }
 
 .google-btn {
-    background-color: #485696;
+    background-color: #E76D83;
 }
 
 
@@ -292,6 +292,7 @@ hr {
     width: 70px;
     margin-top: -70px;
 }
+
 
 /* Parralax 1 */
 .parralax{
@@ -356,6 +357,96 @@ hr {
     position: absolute;
     right: 0;
     top: 298%;
+}
+
+.grid /* Georgina Grid New*/
+{
+    position: relative;
+    top: -200px;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.grid .hover-box
+{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: #E76D83;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.hover-box:hover{
+    transform: scale(1.3);
+    transition: 1.5s;
+}
+
+.grid-two
+{
+    position: relative;
+    top: -400px;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-two .hover-boxtwo
+{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: #E76D83;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.hover-boxtwo:hover{
+    transform: scale(1.3);
+    transition: 1.5s;
+}
+
+.grid-three
+{
+    position: relative;
+    top: -600px;
+    width: 1200px;
+    height: 300px;
+    margin: 240px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-three .hover-boxthree
+{
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(300px - 30px);
+    background: #E76D83;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.hover-boxthree:hover{
+    transform: scale(1.3);
+    transition: 1.5s;
 }
 
 /* Quiz */
