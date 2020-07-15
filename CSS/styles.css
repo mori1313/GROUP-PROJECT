@@ -183,7 +183,14 @@ a {
     border-left: 2px solid transparent;
     border-bottom: 2px solid #485696;
     border-right: 2px solid #485696;
-  }
+}
+
+h1{
+    font-weight: 600;
+    color: #485696;
+    font-size: 40px;
+    text-align: center;
+}
 
 /* INTRO PAGE ENDS */
 /* NOVEL INFO STARTS MISHAAL */
@@ -394,7 +401,7 @@ hr {
     }
 
     #main-colour{
-        height: 160vh;
+        height: 170vh;
     }
 }
 
@@ -419,26 +426,7 @@ hr {
     background-color: #fff;
     display: flex;
 }
-#quiz-title:before{
-    content: "";
-    display: block;
-    width: 63%;
-    height: 12px;
-    background: #485696;
-    position: absolute;
-    left: 0;
-    top: 582%;
-}
-#quiz-title:after{
-    content: "";
-    display: block;
-    width: 18%;
-    height: 12px;
-    background: #485696;
-    position: absolute;
-    right: 0;
-    top: 582%;
-}
+
 #quiz-description{
     padding: 20px;
     text-align: center;
@@ -473,7 +461,6 @@ hr {
     background-color: #E76D83; 
     padding: 15px;
     text-align: center;
-    /* text-decoration: underline; */
     border-radius: 10px;
     font-family: 'coves';
     color: #ffffff;
@@ -564,7 +551,7 @@ hr {
 
 .segment-three h3{
     color: #fff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'coves';
     text-transform: uppercase;
 }
 .segment-three h3:before{
@@ -579,13 +566,15 @@ hr {
     margin-left: -5px;
     color: #fff;
     text-transform: uppercase;
-
 }
+
 .footer-bottom-text {
     background: #485696;
+    color: white;
     text-align: center;
-    line-height: 75px;
     font-size: 15px;
+    margin-bottom: 0;
+    padding: 5px;
 }
 @media only screen and (min-width: 786px) and (max-width: 991px) {
     .md-mb-30 {
@@ -600,4 +589,8 @@ hr {
         width: 100%;
         margin-top: 5px; 
     }
+}
+
+.about {
+    height: 100vh;
 }
