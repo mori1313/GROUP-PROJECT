@@ -17,10 +17,12 @@
 /* GENERAL CSS */
 html {
     font-family: 'coves';
+    height: 100%;
 }
 
 body{
     font-family: 'coves';
+    min-height: 100%;
 }
 
 .main {
@@ -317,6 +319,42 @@ hr {
 #parralax2{
     background-image:url(../images/parallax/faceless-scientist-inspecting-chemical-samples-in-science-3825458.jpg);
 }
+/* Georgina Sign Up Page ends */
+
+/* About us page starts */
+.about-us-page{
+    background: url(../images/aboutusbackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.about-us-text1 {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #E76D83;
+    line-height: 26px;
+    font-family: 'coves';
+    font-size: 18px;
+    width: auto;
+    margin: 70px;
+    padding: 20px;
+    border-radius: 15px;
+    border: wheat;
+}
+.about-us-text2 {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #E76D83;
+    line-height: 26px;
+    font-family: 'coves';
+    font-size: 18px;
+    width: auto;
+    margin: 70px;
+    padding: 20px;
+    border-radius: 15px;
+    border: wheat;
+}
+/* Georgina Sign Up ends */
 
 
 /* Roles */
@@ -577,6 +615,7 @@ hr {
 .footer-top{
     background: #485696;
     padding: 20px 0;
+    
 }
 .segment-one  {
     padding-top: 30px;
@@ -595,6 +634,7 @@ hr {
 .footer-text-wrapper{
     display: flex;
     justify-content: center;
+    margin-top: auto;
 }
 
 .twitter, .facebook, .instagram, .linkedin{
