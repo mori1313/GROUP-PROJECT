@@ -32,7 +32,7 @@ h2 {
     font-family: 'coves';
     font-weight: 600;
     color: #E76D83;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 a {
@@ -325,7 +325,7 @@ hr {
     margin: 0 ;
     width: 100%;
     margin-top: 70vh; 
-    height: 100vh;
+    height: 120vh;
     padding-top:20px ;
 }
 #roles{/* Need margin to stop overlap of absolute image */
@@ -333,135 +333,87 @@ hr {
 }
 
 #roles-title{
-    color: #E76D83;
-    font-size: 5vw;
-    padding: 3%;
-    padding-left: 13%;
-    background-color: #485696;
-    display: flex;
-    
+    margin: 40px auto 20px 70px ;
 }
-#roles-title:before{
-    content: "";
-    display: block;
-    width: 10%;
-    height: 12px;
-    background: #fff;
+
+#roles-info, #quiz-description, .find-out-more-text{
+    font-size: 20px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+
+.hover-tip{
+    font-size: smaller;
+}
+
+.roles-grid{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+.grid-item-wrapper{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    margin: 10px;
+}
+.grid-item-wrapper>img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.overlay{
     position: absolute;
+    border: solid 4px #08a4bd;
+    opacity: 0;
+    transition: 1s;
+    top: 0;
     left: 0;
-    top: 235%;
-}
-#roles-title:after{
-    content: "";
-    display: block;
-    width: 70%;
-    height: 12px;
-    background:#fff;
-    position: absolute;
-    right: 0;
-    top: 235%;
 }
 
-/*.grid /* Georgina Grid New*/
-{
-    position: relative;
-    top: -200px;
-    width: 1200px;
-    height: 300px;
-    margin: 240px auto;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
+.grid-item-wrapper:hover .overlay{
+    opacity: 1;
 }
 
-.grid .hover-box
-{
-    position: relative;
-    width: calc(400px - 30px);
-    height: calc(300px - 30px);
-    background: #E76D83;
-    float: left;
-    margin: 15px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 10px;
+@media (max-width: 900px){
+    .roles-grid{
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    #main-colour{
+        height: 160vh;
+    }
 }
 
-.hover-box:hover{
-    transform: scale(1.3);
-    transition: 1.5s;
-}
+@media (max-width: 650px){
+    .roles-grid{
+       display: none;
 
-.grid-two
-{
-    position: relative;
-    top: -400px;
-    width: 1200px;
-    height: 300px;
-    margin: 240px auto;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-}
-
-.grid-two .hover-boxtwo
-{
-    position: relative;
-    width: calc(400px - 30px);
-    height: calc(300px - 30px);
-    background: #E76D83;
-    float: left;
-    margin: 15px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-.hover-boxtwo:hover{
-    transform: scale(1.3);
-    transition: 1.5s;
-}
-
-.grid-three
-{
-    position: relative;
-    top: -600px;
-    width: 1200px;
-    height: 300px;
-    margin: 240px auto;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-}
-
-.grid-three .hover-boxthree
-{
-    position: relative;
-    width: calc(400px - 30px);
-    height: calc(300px - 30px);
-    background: #E76D83;
-    float: left;
-    margin: 15px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 10px;
-}
-
-.hover-boxthree:hover{
-    transform: scale(1.3);
-    transition: 1.5s;
+    }
 }
 
 /* Quiz */
 #quiz{
-    margin-top: 80vh;
+    margin-top: 70vh;
     padding-bottom: 20vh;
 }
 
 #quiz-title{
     text-align: end;
     color: #E76D83;
-    font-size: 5vw;
     padding: 3%;
     padding-left: 70%;
     background-color: #fff;
@@ -490,6 +442,7 @@ hr {
 #quiz-description{
     padding: 20px;
     text-align: center;
+    color: black;
 }
 
 .quiz-wrapper{
@@ -498,40 +451,29 @@ hr {
 /* Quiz ends */
 
 /* Find out more links start */
-.main-find-out-more-section {
-    background: #fff;
-}
 
 #find-out-more-title {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-display: bold;
     color: #E76D83;
-    font-size: 5vw;
     padding: 3%;
     padding-left: 13%;
     background-color: #fff;
     display: flex;
 }
 
-.container4 {
-    padding-left: 40%;
+.links-wrapper {
+    width: 100%;
+    margin: auto;
+    text-align: center;
 }
 
-.col-xs-6 {
-    margin: 0;
-}
-
-.btn {
-    display: block;
-    font-size: 50px;
-    padding: 10px 20px;
-}
 .find-out-more-button {
     background-color: #E76D83; 
     padding: 15px;
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     border-radius: 10px;
     font-family: 'coves';
     color: #ffffff;
@@ -540,11 +482,24 @@ hr {
     border-left: 2px solid transparent;
     border-bottom: 2px solid #485696;
     border-right: 2px solid #485696;
-    margin: 15px;
+    margin: 15px auto;
+    width: 80%;
+  }
+
+  .find-out-more-text {
+      color: black;
   }
 
 /* Find out more links ends */
 /* Footer begins mishaal */
+
+.footer {
+    background-color: #485696;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
 
 .follow-text{
     color: rgba(255, 255, 255, 0.795);
