@@ -319,7 +319,11 @@ hr {
 }
 
 
-/* Roles */
+/* New Roles grid Nicola */
+
+
+/* Old grid georgina  */
+/*
 #main-colour{
     background-color: #485696;
     margin: 0 ;
@@ -328,7 +332,7 @@ hr {
     height: 100vh;
     padding-top:20px ;
 }
-#roles{/* Need margin to stop overlap of absolute image */
+
     padding: 20px;
 }
 
@@ -362,7 +366,7 @@ hr {
     top: 235%;
 }
 
-/*.grid /* Georgina Grid New*/
+.grid Georgina Grid New
 {
     position: relative;
     top: -200px;
