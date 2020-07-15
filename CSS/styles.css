@@ -55,7 +55,7 @@ a {
 }
 
 .navigation-left {
-    display: flex;
+    display: block;
     height: 100%;
     align-items: center;
 }
@@ -207,7 +207,7 @@ a {
 }
 
 .novel-info-box>p {
-    font-size: 3vmin;
+    font-size: 2vmin;
 }
 
 .novel-info-image {
