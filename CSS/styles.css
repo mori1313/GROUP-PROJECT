@@ -55,7 +55,7 @@ a {
 }
 
 .navigation-left {
-    display: flex;
+    display: block;
     height: 100%;
     align-items: center;
 }
@@ -207,7 +207,7 @@ a {
 }
 
 .novel-info-box>p {
-    font-size: 3vmin;
+    font-size: 2vmin;
 }
 
 .novel-info-image {
@@ -362,7 +362,7 @@ hr {
     top: 235%;
 }
 
-.grid /* Georgina Grid New*/
+/*.grid /* Georgina Grid New*/
 {
     position: relative;
     top: -200px;
