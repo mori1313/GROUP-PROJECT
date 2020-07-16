@@ -8,11 +8,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./CSS/styles.css">
-   
-     <!--We added this for teh carousel but not sure why it's not working?-->  
-     <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
-     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
-     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>CFG Group Project</title>
 </head>
 <body>
@@ -52,15 +49,14 @@
                 </div>
                 <div class = "row inside-intro my-auto justify-content-center">
                     <div class="m-2">       
-                        <a href="#roles-title"><button type="button" button class= "intro-button">Roles</button></a>
+                        <a href="#roles"><button type="button" button class= "intro-button">Roles</button></a>
                     </div>
                     <div class="m-2"> 
-                        <a href="#find-out-more-title"><button type="button" button class= "intro-button">Resources</button></a> <!--Need to make the resources page! Can we make these buttons the same width?--> 
+                        <a href="#quiz"><button type="button" button class= "intro-button">Quiz</button></a>
                     </div>
                     <div class="m-2"> 
-                        <a href="#quiz-title"><button type="button" button class= "intro-button">Quiz</button></a>
+                        <a href="#resources"><button type="button" button class= "intro-button">Resources</button></a> <!--Need to make the resources page! Can we make these buttons the same width?--> 
                     </div>
-                    
                 </div>
             </div>
         </div>
@@ -98,9 +94,8 @@
     </div>
     <!--PARRALAX 1 ENDS MORIAYO-->
     <!--ROLES-->
-
     <div id="main-colour">
-        <div class="title-wrapper2 roles">
+        <div class="title-wrapper2">
             <hr class="title-line2"><h2 id="roles-title">Roles</h2>
         </div>
         <p id="roles-info">Here are some of the diverse roles available in engineering and the inspiring women that work in them <br> <span class="hover-tip"> TIP:  over the images to find out more</span></p>
@@ -130,35 +125,51 @@
                 <img class="overlay" src="./images/grid/6b.png" alt="">
             </div>
         </div>
-        <div id="phoneCarousel" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./images/grid/1b.png" class="d-block w-100" alt="...">
+        <div class="container" id="roles-carousel">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+              </ol>
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="images/grid/1b.png" alt="Los Angeles" style="width:100%;">
+                </div>
+                <div class="item ">
+                    <img src="images/grid/2b.png" alt="Los Angeles" style="width:100%;">
+                </div>
+                <div class="item ">
+                    <img src="images/grid/3b.png" alt="Los Angeles" style="width:100%;">
+                </div>
+                <div class="item ">
+                    <img src="images/grid/4b.png" alt="Los Angeles" style="width:100%;">
+                </div>
+                <div class="item ">
+                    <img src="images/grid/5b.png" alt="Los Angeles" style="width:100%;">
+                </div>
+                <div class="item">
+                    <img src="images/grid/6b.png" alt="Los Angeles" style="width:100%;">
+                </div>
               </div>
-              <div class="carousel-item">
-                <img src="./images/grid/2b.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./images/grid/3b.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./images/grid/4b.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./images/grid/5b.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./images/grid/6b.png" class="d-block w-100" alt="...">
-              </div>
+          
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
         </div>
     </div>
     
@@ -182,32 +193,31 @@
 
 <!-- find out more links start -->
 
-    <div class="title-wrapper4">
-        <hr class="title-line4"><h2  id="find-out-more-title">Find Out More </h2>
-    </div>
-    <div class="main">
-        <p class="find-out-more-text">Our job is to inspire a generation of young women, but of course we aren't the only ones! Check out the links below for more information on women in engineering.</p>
-        <div class="links-wrapper row">
-            <div class="col-md-6 mx-auto col-12">
-                <div>
-                    <a target="blank" href="https://www.wes.org.uk/"><button type="button" button class= "find-out-more-button"> Women's Engineering Society </button></a>
-                </div>
-                <div>
-                    <a target="blank" href="https://www.prospects.ac.uk/jobs-and-work-experience/job-sectors/engineering-and-manufacturing"><button type="button" button class= "find-out-more-button"> Prospect Engineering Careers </button></a>
-                </div>
-                <div>
-                    <a target="blank" href="https://www.theguardian.com/careers/2019/jun/26/how-changing-attitudes-are-closing-the-gender-gap-in-engineering"><button type="button" button class= "find-out-more-button"> Closing the Gender Gap </button></a> 
-                </div>
-                <div>
-                    <a target="blank" href="https://www.techlondonadvocates.org.uk/working-groups/black-women-in-tech/"><button type="button" button class= "find-out-more-button"> Black Women in Tech </button></a> 
-                </div>
-                <div>
-                    <a target="blank" href="https://www.forbes.com/sites/rogertrapp/2018/11/30/why-diversity-is-too-important-for-ceos-to-ignore/#634b8dfa9abf"><button type="button" button class= "find-out-more-button"> Diversity cannot be ignored </button></a> 
-                </div> 
+<div class="title-wrapper4">
+    <hr class="title-line4"><h2  id="find-out-more-title">Find Out More </h2>
+</div>
+<div class="main">
+    <p class="find-out-more-text">Our job is to inspire a generation of young women, but of course we aren't the only ones! Check out the links below for more information on women in engineering.</p>
+    <div class="links-wrapper row">
+        <div class="col-md-6 mx-auto col-12">
+            <div>
+                <a target="blank" href="https://www.wes.org.uk/"><button type="button" button class= "find-out-more-button"> Women's Engineering Society </button></a>
             </div>
+            <div>
+                <a target="blank" href="https://www.prospects.ac.uk/jobs-and-work-experience/job-sectors/engineering-and-manufacturing"><button type="button" button class= "find-out-more-button"> Prospect Engineering Careers </button></a>
+            </div>
+            <div>
+                <a target="blank" href="https://www.theguardian.com/careers/2019/jun/26/how-changing-attitudes-are-closing-the-gender-gap-in-engineering"><button type="button" button class= "find-out-more-button"> Closing the Gender Gap </button></a> 
+            </div>
+            <div>
+                <a target="blank" href="https://www.techlondonadvocates.org.uk/working-groups/black-women-in-tech/"><button type="button" button class= "find-out-more-button"> Black Women in Tech </button></a> 
+            </div>
+            <div>
+                <a target="blank" href="https://www.forbes.com/sites/rogertrapp/2018/11/30/why-diversity-is-too-important-for-ceos-to-ignore/#634b8dfa9abf"><button type="button" button class= "find-out-more-button"> Diversity cannot be ignored </button></a> 
+            </div> 
         </div>
-    </div> 
-
+    </div>
+</div> 
 <!-- find out more links end -->
 
 <!-- Footer begins mishaal-->

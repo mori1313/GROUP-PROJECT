@@ -516,7 +516,7 @@ hr {
 }
 
 @media (min-width: 650px) {
-    #phoneCarousel{
+    #roles-carousel{
         display: none;
     }
 }
@@ -528,6 +528,10 @@ hr {
 
     #main-colour {
         height: 110vh;
+    }
+
+    .hover-tip {
+        display: none;
     }
 }
 
