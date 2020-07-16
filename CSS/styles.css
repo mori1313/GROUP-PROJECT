@@ -185,10 +185,11 @@ a {
     border-left: 2px solid transparent;
     border-bottom: 2px solid #485696;
     border-right: 2px solid #485696;
+    transition: 0.8s
 }
 
 .intro-button:hover {
-    color: #08a4bd;
+    background-color: #08a4bd;
 }
 
 
@@ -354,6 +355,7 @@ hr {
     border-radius: 15px;
     border: wheat;
 }
+
 .about-us-text2 {
     background-color: rgba(255, 255, 255, 0.2);
     color: #E76D83;
@@ -361,16 +363,18 @@ hr {
     font-family: 'coves';
     font-size: 18px;
     width: auto;
-    margin: 70px;
+    margin: 40px;
     padding: 20px;
+    padding-left: 4%;
     border-radius: 15px;
     border: wheat;
 }
 
 .inner-picture {
-    height: 500px;
-    width: 500px; 
-    object-fit: cover;   
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    padding-top: 8%;   
 }
 
 .find-out-more-button {
@@ -389,7 +393,7 @@ hr {
     transition: 0.8s
 }
 .find-out-more-button:hover {
-    color: #08a4bd;
+    background-color: #08a4bd;
 }
 /* About us page ends */
 
