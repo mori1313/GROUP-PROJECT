@@ -337,10 +337,19 @@ h1{
 
 .sign-btn {
     background-color: #E76D83;
+    transition: 0.8s;
 }
-
+.sign-btn:hover {
+    background-color: #08a4bd;
+    transition: 1s;
+}
 .google-btn {
     background-color: #E76D83;
+    transition: 0.8s;
+}
+.google-btn:hover {
+    background-color: #08a4bd;
+    transition: 1s;
 }
 
 
@@ -422,8 +431,8 @@ hr {
 }
 
 .inner-picture {
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 500px;
     object-fit: cover;
     padding-top: 8%;   
 }
