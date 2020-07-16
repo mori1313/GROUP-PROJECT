@@ -411,21 +411,7 @@ hr {
     font-size: 18px;
     width: auto;
     margin: 70px;
-    padding: 20px;
-    border-radius: 15px;
-    border: wheat;
-}
-
-.about-us-text2 {
-    background-color: rgba(255, 255, 255, 0.2);
-    color: #E76D83;
-    line-height: 26px;
-    font-family: 'coves';
-    font-size: 18px;
-    width: auto;
-    margin: 40px;
-    padding: 20px;
-    padding-left: 4%;
+    padding-bottom: 20px;
     border-radius: 15px;
     border: wheat;
 }
@@ -436,7 +422,6 @@ hr {
     object-fit: cover;
     padding-top: 8%;   
 }
-
 
 /* About us page ends */
 
