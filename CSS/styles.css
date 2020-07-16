@@ -302,9 +302,15 @@ hr {
 
 #user_logo {
     width: 70px;
-    margin-top: -70px;
+    margin-top: -30px;
+    margin-left: -5px;
 }
 
+#user_icon {
+    width: 50px;
+    margin-top: -110px;
+    margin-left: -62px;
+}
 
 /* Parralax */
 .parralax{
