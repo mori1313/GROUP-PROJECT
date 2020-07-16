@@ -449,10 +449,15 @@ hr {
     }
 }
 
+@media (min-width: 650px) {
+    #phoneCarousel{
+        display: none;
+    }
+}
+
 @media (max-width: 650px){
     .roles-grid{
        display: none;
-
     }
 }
 
