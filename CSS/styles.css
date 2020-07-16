@@ -238,6 +238,7 @@ a {
 
 .intro-button:hover {
     background-color: #08a4bd;
+    transition: 1s;
 }
 
 
@@ -427,24 +428,7 @@ hr {
     padding-top: 8%;   
 }
 
-.find-out-more-button {
-    background-color: #E76D83; 
-    padding: 15px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 10px;
-    font-family: 'coves';
-    color: #ffffff;
-    font-size: 25px;
-    border-top: 2px solid transparent;
-    border-left: 2px solid transparent;
-    border-bottom: 2px solid #485696;
-    border-right: 2px solid #485696;
-    transition: 0.8s
-}
-.find-out-more-button:hover {
-    background-color: #08a4bd;
-}
+
 /* About us page ends */
 
 
@@ -604,6 +588,26 @@ hr {
     margin: 15px auto;
     width: 80%;
   }
+
+  .find-out-more-button {
+    background-color: #E76D83; 
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: 'coves';
+    color: #ffffff;
+    font-size: 25px;
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-bottom: 2px solid #485696;
+    border-right: 2px solid #485696;
+    transition: 0.8s
+}
+.find-out-more-button:hover {
+    background-color: #08a4bd;
+    transition: 1s;
+}
 
   .find-out-more-text {
       color: black;
