@@ -40,6 +40,54 @@ h2 {
 a {
     text-decoration: none;
 }
+
+.title-line1{
+    height: 6px;
+    width: 100% !important;
+    background-color: #485696;
+    margin-bottom: -38px;
+}
+
+.title-line2 {
+    height: 6px;
+    width: 100% !important;
+    background-color: #ffffff;
+    margin-bottom: -50px;
+    z-index: 9;
+}
+
+.title-line3{
+    height: 6px;
+    width: 100% !important;
+    background-color: #485696;
+    margin-bottom: -38px;
+}
+
+.title-line4 {
+    height: 6px;
+    width: 100% !important;
+    background-color: #485696;
+    z-index: 9;
+    margin-bottom: -35px;
+}
+
+.title-wrapper1 {
+    width: 100%;
+    text-align: center;
+}
+
+.title-wrapper2{
+    width: 100%;
+    padding: 20px 0;
+}
+
+.title-wrapper3 {
+    width: 100%;
+}
+.title-wrapper4 {
+    width: 100% !important;
+}
+
 /* END OF GENERAL */
 /* NAV BAR MORIAYO */
 
@@ -187,6 +235,11 @@ a {
     border-right: 2px solid #485696;
 }
 
+.intro-button:hover {
+    color: #08a4bd;
+}
+
+
 h1{
     font-weight: 600;
     color: #485696;
@@ -201,8 +254,10 @@ h1{
 }
 
 #novel-info-title {
-    text-align: center;
-    margin-bottom: 20px;
+    margin: 0 auto;
+    display: inline-block;
+    padding: 0 10px;
+    background-color: #ffffff;
 }
 
 .novel-info-wrapper{
@@ -226,7 +281,7 @@ h1{
     margin: 10px;
  } 
 
- @media (max-width :  630px) {
+@media (max-width :  630px) {
      .novel-info-box>p{
          font-size: 20px;
      }
@@ -241,7 +296,7 @@ h1{
      #img-prob {
         border-top: 2px dashed transparent;
     }
- }
+}
 
 /* NOVEL INFO ENDS MISHAAL */
 /* Georgina Sign Up Page */
@@ -367,6 +422,31 @@ hr {
     border-radius: 15px;
     border: wheat;
 }
+
+.inner-picture {
+    height: 500px;
+    width: 500px; 
+    object-fit: cover;   
+}
+
+.find-out-more-button {
+    background-color: #E76D83; 
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family: 'coves';
+    color: #ffffff;
+    font-size: 25px;
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-bottom: 2px solid #485696;
+    border-right: 2px solid #485696;
+    transition: 0.8s
+}
+.find-out-more-button:hover {
+    color: #08a4bd;
+}
 /* About us page ends */
 
 
@@ -383,8 +463,11 @@ hr {
     padding: 20px;
 }
 
-#roles-title{
-    margin: 40px auto 20px 70px ;
+#roles-title {
+    margin: 20px auto 20px 70%;
+    display: inline-block;
+    padding: 0 10px;
+    background-color: #485696;
 }
 
 #roles-info, #quiz-description, .find-out-more-text{
@@ -459,21 +542,25 @@ hr {
     .roles-grid{
        display: none;
     }
+
+    #main-colour {
+        height: 110vh;
+    }
 }
 
 /* Quiz */
 #quiz{
-    margin-top: 70vh;
+    margin-top: 75vh;
     padding-bottom: 20vh;
+    width: 100%;
 }
 
 #quiz-title{
-    text-align: end;
+    margin-left: 17%;
     color: #E76D83;
-    padding: 3%;
-    padding-left: 70%;
     background-color: #fff;
-    display: flex;
+    padding: 0 10px;
+    display: inline-block;
 }
 
 #quiz-description{
@@ -484,20 +571,18 @@ hr {
 
 .quiz-wrapper{
     text-align: center;
+    width: 90%;
+    margin: auto;
 }
 /* Quiz ends */
 
 /* Find out more links start */
 
 #find-out-more-title {
-    text-align: center;
-    margin-bottom: 15px;
-    font-display: bold;
-    color: #E76D83;
-    padding: 3%;
-    padding-left: 13%;
     background-color: #fff;
-    display: flex;
+    display: inline-block;
+    padding: 0 10px;
+    margin-left: 15%;
 }
 
 .links-wrapper {
